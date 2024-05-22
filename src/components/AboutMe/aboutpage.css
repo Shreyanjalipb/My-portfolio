@@ -1,0 +1,22 @@
+.emoji-slider {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 50px; /* Adjust height as needed */
+  }
+  
+  .emoji-slider span {
+    position: absolute;
+    left: 0;
+    animation: slide 5s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -10%;
+    }
+  }
+  
